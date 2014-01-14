@@ -1,3 +1,27 @@
+#===========================================================================
+#
+#          File:  use-thunderbird-with-gpg-agent.sh
+# 
+#   Description:  Run thunderbird with gpg agent
+# 
+#       Options:  ---
+#  Requirements:  ---
+#          Bugs:  ---
+#         Notes:  ---
+#
+#       Version:  1.0
+#       Created:  01/14/2014 06:59:00 PM CET
+#      Revision:  ---
+# 
+#         Usage:  ./use-thunderbird-with-gpg-agent.sh 
+# 
+#        Output:  ---
+#
+#        Author:  Frank Milde (FM), frank.milde@posteo.de
+#       Company:  --- 
+#
+#===========================================================================
+
 #!/bin/sh
 
 envfile="${HOME}/.gnupg/gpg-agent.env"

@@ -1,6 +1,6 @@
 #===========================================================================
 #
-#          File:  ssh-without-password.sh
+#          File:  setup-ssh-without-password.sh
 # 
 #   Description:  Setting up ssh to use with out passwords using an RSA key
 #                 pair.
@@ -103,7 +103,7 @@ function add_to_servers_auth_keys() {
 ENDSSH
 }    # ----------  end of function add_to_servers_auth_keys  ----------
 
-function add-to-client-config() {
+function add_to_client_config() {
   echo "Update clients ssh config file."
 
   if [[ ! -e ${CLIENTCONFIGFILE} ]]
@@ -113,7 +113,7 @@ function add-to-client-config() {
   fi
 
   echo -e "\t IdentityFile ~/.ssh/${KEY} " >> ${HOME}/.ssh/config
-}    # ----------  end of function add-to-client-config  ----------
+}    # ----------  end of function add_to_client_config  ----------
 
 function main() {
   if [[ "$1" == "" ]]; then
@@ -146,7 +146,8 @@ function main() {
   create_key_pair_on_client
   copy_pubKey_to_server
   add_to_servers_auth_keys
-  add-to-client-config
+  add_to_client_config
+
   echo Done.
 }    # ----------  end of function main  ----------
 
