@@ -27,7 +27,8 @@
 #                 - added option handling
 #                 - added greeting
 # 
-#         Usage:  ./ssh-without-password.sh 
+#         Usage:  ./setup-ssh-without-password.sh 
+#                 All arguments are optional.
 # 
 #        Output:  ---
 #
@@ -77,6 +78,8 @@ function user_input () {
 function usage {
   echo "usage: $(basename ${0}) [[--user your-remote-user-name] | \
 [--host your-remote-host-address] | [--help]]"
+  echo
+  echo "All arguments are optional."
 }    # ----------  end of function usage  ----------
 
 function create_key_pair_on_client() {
@@ -119,6 +122,7 @@ function main() {
   if [[ "$1" == "" ]]; then
     FLAG_COMMANDLINE=false
   else
+    FLAG_COMMANDLINE=true
     while [ "$1" != "" ]; do
       case $1 in
         -u | --user ) shift
