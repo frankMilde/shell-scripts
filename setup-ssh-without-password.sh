@@ -32,7 +32,7 @@
 #        Output:  ---
 #
 #        Author:  Frank Milde (FM), frank.milde@posteo.de
-#       Company:  TU Berlin
+#       Company:  ---
 #
 #===========================================================================
 
