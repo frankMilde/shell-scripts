@@ -20,8 +20,8 @@
 # 
 #        Output:  <+OUTPUT+>
 #
-#        Author:  Frank Milde (FM), frank@mailbox.tu-berlin.de
-#       Company:  TU Berlin
+#        Author:  Frank Milde (FM), frankMilde@posteo.de
+#       Company:
 #
 #===========================================================================
 
