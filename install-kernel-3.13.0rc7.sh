@@ -21,7 +21,7 @@
 # 
 #        Output:  None
 #
-#        Author:  Frank Milde (FM), frank@mailbox.tu-berlin.de
+#        Author:  Frank Milde (FM), frankMilde@posteo.de
 #       Company:  
 #
 #===========================================================================
