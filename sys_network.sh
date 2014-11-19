@@ -17,7 +17,7 @@
 # 
 #        Output:  ---
 #
-#        Author:  Frank Milde (FM), frank.milde@posteo.de
+#        Author:  Frank Milde (FM), frank.milde (at) posteo.de
 #       Company:  ---
 #
 #===========================================================================
