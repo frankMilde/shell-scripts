@@ -12,7 +12,7 @@ fi
 cd
 
 echo -e "\nPulling shell scripts..."
-cd ~/github/shell-scripts/
+cd ~/github/frankMilde/shell-scripts/
 git pull origin master
 
 if [ "$?" != "0" ]; then
