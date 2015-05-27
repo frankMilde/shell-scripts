@@ -1,8 +1,10 @@
 echo -e "\nPushing dot-files..."
 cd ~/dot-files
+echo
 git status
+echo
 
-local choice=""
+choice=""
 read -e -p "Commit and push changes y/n? (default is y) " choice
 choice=${choice:-y}
 
@@ -21,7 +23,9 @@ cd
 
 echo -e "\nPushing shell scripts..."
 cd ~/github/shell-scripts/
+echo
 git status
+echo
 
 read -e -p "Commit and push changes y/n? (default is y) " choice
 choice=${choice:-y}
