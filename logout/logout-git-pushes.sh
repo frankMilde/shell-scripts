@@ -20,9 +20,8 @@ fi
 cd
 
 
-
 echo -e "\nPushing shell scripts..."
-cd ~/github/shell-scripts/
+cd ~/github/frankMilde/shell-scripts/
 echo
 git status
 echo
