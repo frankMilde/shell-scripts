@@ -1,3 +1,4 @@
+echo "Logout [$(date '+%a, %d. %b %H:%M')]" >> ~/git.log 
 echo -e "\nPushing dot-files..." | tee --append ~/git.log 
 cd ~/dot-files
 echo

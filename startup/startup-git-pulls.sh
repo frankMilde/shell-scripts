@@ -1,6 +1,7 @@
 NORMAL=$(tput sgr0)
 RED=$(tput setaf 1)
 
+echo "Login [$(date '+%a, %d. %b %H:%M')]" >> ~/git.log 
 echo -e "\nPulling dot-files..." | tee --append ~/git.log 
 cd ~/dot-files
 git pull origin master 2>&1 >>~/git.log | tee --append ~/git.log
