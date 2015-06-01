@@ -1,12 +1,7 @@
 #!/bin/sh
-# trashit
-
 # original script
 #    http://www.macosxhints.com/article.php?story=20030217172653485
 #    author: Shane Celis <shane (at) gnufoo (dot) org>
-#
-# Sun, 20-May-2007; 06:47:22 
-#    minor changes...
 
 if [ $# -eq 0 ]; then
         echo "usage: trashit <files...>" >&2

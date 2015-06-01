@@ -1,3 +1,4 @@
+#!/bin/sh
 MC_USER=`id | sed 's/[^(]*(//;s/).*//'`
 MC_PWD_FILE="${TMPDIR-/tmp}/mc-$MC_USER/mc.pwd.$$"
 /usr/bin/mc -P "$MC_PWD_FILE" "$@"
